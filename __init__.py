@@ -3,7 +3,7 @@ from cryptography.fernet import Fernet
 
 app = Flask(__name__)
 
-# Page d'accueil
+# Page d'accuei
 @app.route('/')
 def home():
     return render_template('crypto.html')
